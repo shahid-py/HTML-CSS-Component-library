@@ -1,0 +1,44 @@
+
+/** typography **/
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;700&family=Merriweather:wght@300;700&display=swap');
+
+:root {
+    --primary-color:#5067DB;
+}
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Merriweather', serif;
+    
+}
+
+/** container **/
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+ max-width: 600px;
+ margin: auto;
+}
+
+/** links **/
+
+.link {
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    
+}
+.link-primary{
+    background-color: var(--primary-color);
+   border-radius: 0.5rem;
+  color:white;
+
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+ 
