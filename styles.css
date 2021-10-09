@@ -6,6 +6,7 @@
 :root {
     --primary-color:#5067DB;
     --dark-grey-color:#6B7280;
+    --off-white-color:#F3F4F6;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 
 .body{
     color: var(--primary-color);
+    padding: 0rem 0.5rem;
 }
 
 .h2{
@@ -71,7 +73,7 @@ hr {
 .navigation{
     background-color: var(--primary-color);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
     color: white;
 }
 
@@ -105,4 +107,34 @@ padding-top: 1rem;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+/** section **/
+
+
+.section {
+    padding: 2rem;
+}
+.section  h1 {
+    text-align: center;
+    
+    
+}
+ .ow{
+    background-color: var(--off-white-color);
+    border-radius: 2rem;
+}
+
+/** footer **/
+
+.footer{
+background-color:var(--primary-color);
+border-bottom-right-radius: 2rem;
+padding: 1rem 1rem;
+text-align: center;
+color: white;
+}
+
+.footer .link{
+    color: white;
 }
