@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Shahid's component library</h1>
+    <h1 class="body">Shahid's component library</h1>
     <p> I am attending neog.camp. I want to make library which cover all my project and make it look good and consistent</p>
 
  <hr>
 
-     <h2>@typography</h2>
+     <h2 class="h2">typography</h2>
 
      <h1>This is the biggest Heading</h1>
      <h2>This is second biggest heading</h2>
@@ -23,21 +23,21 @@
 
  <hr>
        
-      <h2>Containers</h2>
+      <h2 class="h2">Containers</h2>
        
       <h3>fluid container</h3>
       <div class="
           container-fluid">This is fluid container it will go till the end of page</div>
 
-      <h3>center container</h3>
+      <h3 >center container</h3>
       <div class=" 
-      container-center">This is centered container it will go till the specified width</div>
+         container-center">This is centered container it will go till the specified width</div>
 
  <hr>
        
-      <h2>links</h2>
+      <h2 class="h2" >links</h2>
 
-      <a class="link link-primary"
+         <a class="link link-primary"
           href="/">Primary link</a>
       
 
@@ -48,11 +48,13 @@
 
  <hr>
 
-        <h2>List</h2>
+        <h2 class="h2">List</h2>
         
         <h3>unordered List </h3>
 
-        <ul>
+        <div>no bullet on this list</div>
+
+        <ul class="list-non-bullet">
 
             <li>item 1</li>
             <li>item 2</li>
@@ -64,18 +66,18 @@
 
         <div>this is a list which is going to show in one line not in a row</div>
 
-        <ul>
+        <ul class="list-non-bullet">
 
-            <li>inline item 1</li>
-            <li>inline item 2</li>
-            <li>inline item 3</li>
+            <li class="list-inline">inline item 1</li>
+            <li class="list-inline">inline item 2</li>
+            <li class="list-inline">inline item 3</li>
 
         </ul>
 
         <h3>reverse order list</h3>
         <div>it shows list in reverse order</div>
 
-        <ol>
+        <ol reversed>
 
              <li>milk</li>
              <li>tea</li>
@@ -86,25 +88,26 @@
         
    <hr> 
 
-          <h2>nav</h2>
+          <h2 class="h2">nav</h2>
 
-          <nav>
-              <div> 
-                  Shahid Khan <small>(web developer)</small>
+          <nav class="navigation container">
+              <div
+              class=nav-brand>
+                 Shahid Khan
               </div>
 
-               <ul>
+               <ul class="list-non-bullet nav-pills">
 
-                <li>
-                    <a href="/">HOME</a>
+                <li class="list-inline list-active ">
+                    <a class="link" href="/">HOME</a>
                 </li>
 
-                <li>
-                    <a href="/">PROJECT</a>
+                <li class="list-inline list-active">
+                    <a class="link"href="/">PROJECT</a>
                 </li>
 
-                <li>
-                    <a href="/">BLOG</a>
+                <li class="list-inline list-active">
+                    <a class="link"href="/">BLOG</a>
                 </li>
 
                </ul>
@@ -112,12 +115,12 @@
 
     <hr>
            
-              <h2>header</h2>
+          <h2 class="h2">header</h2>
 
-              <header>
+             <header class="hero">
 
-                  <img src="images/HERO.svg"/>
-                   <h1>heading inside HERO</h1>
+                  <img  class="hero-img" src="images/HERO.svg"/>
+                   <h1 class="hero-heading">I am Shahid Khan <span class="heading-inverted">(web developer)</span></h1>
 
               </header>
 
@@ -126,7 +129,7 @@
 
    <hr>
             
-             <h2>Section</h2>
+         <h2 class="h2">Section</h2>
 
               <section>
               <h3>white section</h3>
@@ -138,7 +141,7 @@
 
   <hr>
 
-              <h2>footer</h2>
+              <h2 class="h2">footer</h2>
 
               <div>some small heading inside footer </div>
               <ul>
